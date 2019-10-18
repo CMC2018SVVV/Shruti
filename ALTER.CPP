@@ -1,3 +1,4 @@
+//Imports
 #include<conio.h>
 #include<iostream.h>
 #include<stdlib.h>
@@ -6,6 +7,8 @@
 #include<string.h>
 #include<dos.h>
 #include<fstream.h>
+
+//Methods
 void home();
 void fest4();
 void fest_4();
@@ -55,7 +58,7 @@ struct mouse
 {
 	int x,y,button;
 };
-
+//Coordinate
 mouse getcoordinates()
 {
 	in.x.ax=3;
@@ -2599,7 +2602,7 @@ settextstyle(1,0,2);
 outtextxy(365,285,"EVENT");
 outtextxy(385,310,"AND");
 outtextxy(325,335,"WORKSHOP");
-
+//Designing
 setfillstyle(SOLID_FILL,LIGHTBLUE);     //square3
 line(319,365,389,365);
 line(319,435,389,435);
@@ -2619,7 +2622,7 @@ line(504,178,504,190);
 line(504,190,514,198);
 line(514,198,504,206);
 floodfill(440,190,WHITE);
-
+//Designing
 setfillstyle(SOLID_FILL,CYAN);
 line(434,263,484,263);
 line(434,263,434,313);
@@ -2629,7 +2632,7 @@ line(469,323,474,313);
 line(474,313,484,313);
 line(484,313,484,263);
 floodfill(435,300,WHITE);
-
+//Designing
 setfillstyle(SOLID_FILL,LIGHTCYAN);
 line(315,110,315,185);
 line(315,185,235,185);
@@ -2639,7 +2642,7 @@ line(245,100,240,110);
 line(245,100,250,110);
 line(250,110,315,110);
 floodfill(240,120,WHITE);
-
+//Designing
 setfillstyle(SOLID_FILL,BLUE);
 line(315,190,315,295);
 line(315,295,205,295);
@@ -2655,7 +2658,7 @@ outtextxy(215,255,"27");
 settextstyle(1,0,2);
 outtextxy(225,200,"SUMMER");
 outtextxy(215,225,"TRAINING");
-
+//Designing
 setfillstyle(SOLID_FILL,MAGENTA);
 line(315,300,315,400);
 line(315,300,205,300);
@@ -2671,7 +2674,7 @@ settextstyle(1,0,2);
 outtextxy(215,325,"GAME");
 outtextxy(215,350,"OF");
 outtextxy(215,375,"CODES");
-
+//Designing
 setcolor(WHITE);
 setfillstyle(SOLID_FILL,GREEN);
 line(200,250,200,300);
@@ -2683,6 +2686,7 @@ line(170,250,165,240);
 line(170,250,200,250);
 floodfill(155,260,WHITE);
 
+//Designing
 setfillstyle(SOLID_FILL,YELLOW);
 line(130,305,200,305);
 line(200,305,200,375);
